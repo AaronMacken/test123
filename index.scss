@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+}
+
+$btnBackgroundColor: rgb(56, 29, 123);
+$btnFontColor: #fff;
+
+.btn {
+  color: $btnFontColor;
+  background: $btnBackgroundColor;
+}
+
+div {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 3px;
+
+  .btn {
+    margin-right: 25px;
+    transition: all 0.5s;
+  }
+
+  .btn:hover {
+    background-color: $btnFontColor;
+    color: $btnBackgroundColor;
+  }
+}

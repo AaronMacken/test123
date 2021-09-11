@@ -1,0 +1,25 @@
+body {
+  background-color: #fff;
+}
+
+.btn {
+  color: #fff;
+  background: #381d7b;
+}
+
+div {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+div .btn {
+  margin-right: 25px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+div .btn:hover {
+  background-color: #fff;
+  color: #381d7b;
+}
